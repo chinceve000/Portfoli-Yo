@@ -7,6 +7,7 @@ Replace those words with whichever JavaScript file you'd like to open.
 Download the JavaScript file and then run the _hello.html_ file. 
 
 **Links:**
+
 [- hello.html](https://github.com/chinceve000/Portfoli-Yo/blob/master/hello.html)
 
 [- paint.js](https://github.com/chinceve000/Portfoli-Yo/blob/master/paint.js)

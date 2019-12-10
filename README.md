@@ -6,6 +6,8 @@ In this file, there is a line with "FILE_NAME_HERE"
 Replace those words with whichever JavaScript file you'd like to open.
 Download the JavaScript file and then run the _hello.html_ file. 
 
+At my high school, all sophomores must complete the Personal Project: an opportunity for students to create something in a topic they're interested in, following IB guidelines. I chose to create a webpage using HTML, CSS, and JavaScript teaching users the basis of Python. I put a lot of time and effort into completing the project, so I highly recommend you click that HTML file pp.html! By the way, the pp is for Personal Project!
+
 **Links:**
 
 [- hello.html](https://github.com/chinceve000/Portfoli-Yo/blob/master/hello.html)
@@ -15,3 +17,5 @@ Download the JavaScript file and then run the _hello.html_ file.
 [- sketch.js](https://github.com/chinceve000/Portfoli-Yo/blob/master/sketch.js)
 
 [- block_block.js](https://github.com/chinceve000/Portfoli-Yo/blob/master/block_block.js)
+
+[- pp.html]()

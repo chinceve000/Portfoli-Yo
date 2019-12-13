@@ -27,8 +27,11 @@ At my high school, all sophomores must complete the Personal Project: an opportu
 [- block_block.js](https://github.com/chinceve000/Portfoli-Yo/blob/master/block_block.js)
 
 **Quartile 2**
+
 [- run.html]()
+
 [- melon.js]()
+
 [- radish.js]()
 
 **Personal Project:**

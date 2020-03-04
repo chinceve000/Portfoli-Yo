@@ -14,6 +14,9 @@ In this file, there is a line with "FILE_NAME_HERE"
 Replace those words with whichever JavaScript file you'd like to open.
 Download the JavaScript file and then run the _run.html_ file. 
 
+My work from the third quartile of the 2019/2020 school year is under Quartile 3.
+This nine weeks, we focused on D3 and data visualization. 
+
 At my high school, all sophomores must complete the Personal Project: an opportunity for students to create something in a topic they're interested in, following IB guidelines. I chose to create a webpage using HTML, CSS, and JavaScript teaching users the basis of Python. I put a lot of time and effort into completing the project, so I highly recommend you click that HTML file pp.html! By the way, the pp stands for Personal Project.
 
 **Quartile 1**

@@ -1,0 +1,49 @@
+<html>
+<head>
+
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"
+     integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+     crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.5.1/dist/leaflet.js"
+      integrity="sha512-GffPMF3RvMeYyc1LWMHtK8EbPv0iNZ8/oTtHPx9/cc2ILxQ+u905qIwdpULaqDkyBKgOaB57QTMg7ztg8Jm2Og=="
+      crossorigin=""></script>
+
+</head>
+<style>
+
+  body{font-family: Courier;}
+  h1{text-indent: 40%; font-size: 200%; color: limegreen; text-shadow: 0 0 .7em dodgerblue;}
+  p{color: dodgerblue;}
+
+</style>
+<body>
+
+  <h1>World Explorers!</h1>
+  <p>Welcome to our game: World Explorers! In this game, you will explore old traditions from far and wide while becoming more globally minded. To play, click on the location markers and open up the links. The links take you to mini-games showing you cultural traditions from all over. Enjoy!</p>
+
+    <div id="mapid" style="height: 580px; width: 75%; margin: 35px; border-radius: 13px;"></div>
+    <script>
+      var mymap = L.map('mapid').setView([50, -10], 2);
+      L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}', {
+  	attribution: 'Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ',
+  	maxZoom: 50,
+  }).addTo(mymap);
+
+    var marker1 = L.marker([17.0732, -96.7266]).addTo(mymap);
+    marker1.bindPopup("<b>Oaxaca, Mexico</b><br><a href='radish.html' target='_blank'>Festival of the Radishes Game!</a>").openPopup();
+    var marker2 = L.marker([38.9697, 59.5563]).addTo(mymap);
+    marker2.bindPopup("<b>Turkmenistan</b><br><a href='fruit.html' target='_blank'>Day of the Melon Game!</a>").openPopup();
+    var marker3 = L.marker([-13.5320, -71.9675]).addTo(mymap);
+    marker3.bindPopup("<b>Cusco, Peru</b><br><a href='peru.html' target='_blank'>Incan Clothing Game!</a>").openPopup();
+    var marker3 = L.marker([12.8797, 121.7740]).addTo(mymap);
+    marker3.bindPopup("<b>Philippines</b><br><a href='philippines.html' target='_blank'>Giant Lantern Festival Game!</a>").openPopup();
+
+
+    var popup = L.popup();
+
+           mymap.on('click', onMapClick);
+
+  </script>
+
+</body>
+</html>

@@ -19,7 +19,7 @@ This nine weeks, we focused on D3 and data visualization.
 
 At my high school, all sophomores must complete the Personal Project: an opportunity for students to create something in a topic they're interested in, following IB guidelines. I chose to create a webpage using HTML, CSS, and JavaScript teaching users the basis of Python. I put a lot of time and effort into completing the project, so I highly recommend you click that HTML file pp.html! By the way, the pp stands for Personal Project.
 
-**Quartile 1**
+**Quartile 1:**
 
 [- hello.html](https://github.com/chinceve000/Portfoli-Yo/blob/master/hello.html)
 
@@ -29,13 +29,16 @@ At my high school, all sophomores must complete the Personal Project: an opportu
 
 [- block_block.js](https://github.com/chinceve000/Portfoli-Yo/blob/master/block_block.js)
 
-**Quartile 2**
+**Quartile 2:**
 
-[- run.html]()
+[- run.html](https://github.com/chinceve000/Portfoli-Yo/blob/master/run.html)
 
-[- melon.js]()
+[- melon.js](https://github.com/chinceve000/Portfoli-Yo/blob/master/fruit.js)
 
-[- radish.js]()
+[- radish.js](https://github.com/chinceve000/Portfoli-Yo/blob/master/radish.js)
+
+**Quartile 3:**
+
 
 **Personal Project:**
 

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+  <title>d3 practice</title>
+</head>
+
+<body>
+
+  <h2>d3 Practice</h2>
+  <div id="viz">
+
+  <svg width="800" height="500"
+    style="background: #99B6E7">
+
+
+  // clouds
+      <g id="cloud">
+        <circle
+        cx="60" cy="60" r="35"
+        style="fill: #fff"
+        />
+      </g>
+
+      <use xlink:href="#cloud" x="20" y="-20" />
+      <use xlink:href="#cloud" x="20" y="30" />
+      <use xlink:href="#cloud" x="40" y="0" />
+      <use xlink:href="#cloud" x="80" y="-20" />
+      <use xlink:href="#cloud" x="75" y="25" />
+      <use xlink:href="#cloud" x="100" y="2" />
+
+      <use xlink:href="#cloud" x="250" y="-20" />
+      <use xlink:href="#cloud" x="250" y="30" />
+      <use xlink:href="#cloud" x="270" y="0" />
+      <use xlink:href="#cloud" x="310" y="-20" />
+      <use xlink:href="#cloud" x="305" y="25" />
+      <use xlink:href="#cloud" x="330" y="2" />
+
+      <use xlink:href="#cloud" x="550" y="60" />
+      <use xlink:href="#cloud" x="550" y="90" />
+      <use xlink:href="#cloud" x="530" y="80" />
+      <use xlink:href="#cloud" x="570" y="60" />
+      <use xlink:href="#cloud" x="565" y="85" />
+      <use xlink:href="#cloud" x="590" y="82" />
+
+
+// torso
+  <line x1="400" y1="200" x2="400" y2="400"
+  style="stroke: #E7B369; stroke-width: 20px" />
+
+// legs
+  <line x1="400" y1="350" x2="350" y2="500"
+  style="stroke: #E7B369; stroke-width: 20px" />
+
+  <line x1="400" y1="350" x2="450" y2="500"
+  style="stroke: #E7B369; stroke-width: 20px" />
+
+// arms
+  <line x1="400" y1="220" x2="320" y2="360"
+  style="stroke: #E7B369; stroke-width: 20px" />
+
+  <line x1="400" y1="220" x2="480" y2="360"
+  style="stroke: #E7B369; stroke-width: 20px" />
+
+// head
+  <circle
+    cx="400" cy="160" r="80"
+    style="fill: #E7B369"
+  />
+
+  <circle
+    cx="380" cy="160" r="10"
+    style="fill: #54452F"
+  />
+
+  <circle
+    cx="420" cy="160" r="10"
+    style="fill: #54452F"
+  />
+
+  <line x1="380" y1="190" x2="420" y2="190"
+  style="stroke: #CE7761; stroke-width: 10px" />
+
+  <text
+  x="5" y="490"
+  font-family="sans-serif"
+  font-size="25"
+  fill="white">This is Janet.</link>
+
+
+
+</body>
+
+
+</html>
